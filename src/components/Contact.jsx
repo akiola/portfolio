@@ -37,9 +37,9 @@ const Contact = () => {
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID, 
         {
           from_name: form.name,
-          to_name: 'Your Name',
+          to_name: 'Godfred Awuku',
           from_email: form.email,
-          to_email: 'your@email.com',
+          to_email: import.meta.env.VITE_CONTACT_EMAIL || 'admin@example.com',
           message: form.message,
         },
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
@@ -67,6 +67,9 @@ const Contact = () => {
       >
         <p className="text-sm text-yellow-400 uppercase tracking-widest mb-2 mt-12">Get in Touch</p>
         <h2 className="text-4xl md:text-5xl font-bold text-white">Contact</h2>
+        <div className="mt-4 mb-6 text-gray-300">
+          <p>Connect with me on <a href="https://linkedin.com/in/gawuku2025" className="text-yellow-400 hover:underline">LinkedIn</a> or <a href="https://github.com/akiola" className="text-yellow-400 hover:underline">GitHub</a></p>
+        </div>
       </motion.div>
 
       <motion.form

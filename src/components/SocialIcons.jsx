@@ -3,11 +3,11 @@ import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 
 const icons = [
   {
-    href: "#",
+    href: "https://linkedin.com/in/gawuku2025",
     components: <FaLinkedin />,
   },
   {
-    href: "#",
+    href: "https://github.com/akiola",
     components: <FaGithub />,
   },
   {

@@ -52,7 +52,7 @@ const Header = () => {
   return (
     <header className="fixed w-full flex justify-between items-center p-4 z-50 backdrop-blur-md bg-black/30 transition-shadow mb-16">
       <a href='#' className="text-3xl font-extrabold text-yellow-600 hover:scale-110 transition duration-300">
-        GODFRED <span>.</span>
+        GODFRED AWUKU <span>.</span>
       </a>
 
       <nav className="hidden md:flex">
